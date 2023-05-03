@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Exemplo de Formulário para Salvar/Editar/Excluir Dados</title>
+	<link rel="stylesheet" href="style.css">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+
+<body>
+	<h1>Exemplo de Formulário para Salvar/Editar/Excluir Dados</h1>
+
+	<form id="myForm">
+		<label for="name">Nome:</label>
+		<input type="text" id="name" name="name"><br><br>
+
+		<label for="age">Idade:</label>
+		<input type="number" id="age" name="age"><br><br>
+
+		<input type="submit" value="Salvar">
+		<input id="input-busca" type="text" class="form-control mt-3 mb-3" placeholder="Pesquisar...">
+	</form>
+
+	<div id="output"></div>
+
+	<script src="script.js"></script>
+</body>
+
+</html>
